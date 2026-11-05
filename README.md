@@ -59,12 +59,12 @@ Your instructor will give you a new requirement. Implement it in your refactored
 
 | Measure | Before | After |
 |---|---|---|
-| Tests passing | | |
-| Lines in the largest file | | |
-| Places where the fine rate appears | | |
-| Route handlers containing SQL | | |
+| Tests passing | 53 | 53 (+17 rule tests in `test_rules.py`) |
+| Lines in the largest file | 555 (`app.py`) | 115 (`repository.py`) |
+| Places where the fine rate appears | 7 | 1 (`rules.py`) |
+| Route handlers containing SQL | 16 | 0 |
 | Places edited for the change request | n/a | |
-| Can the fine rule be tested without HTTP or a database? | | |
+| Can the fine rule be tested without HTTP or a database? | No | Yes |
 
 ## Questions to answer
 
